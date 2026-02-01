@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <!-- Luxon CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Age Calculator</h2>
+
+    <form id="ageForm">
+        <div class="datepicker">
+            <select id="day">
+                <option value="">Day</option>
+            </select>
+
+            <select id="month">
+                <option value="">Month</option>
+            </select>
+
+            <select id="year">
+                <option value="">Year</option>
+            </select>
+        </div>
+
+        <button type="submit">Calculate Age</button>
+    </form>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
